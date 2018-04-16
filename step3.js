@@ -13,7 +13,6 @@ function getAndPrintHTML (options) {
     var addedChunks = "";
     response.on('data', function (data){
       addedChunks += data;
-      console.log(addedChunks);
     })
 
   })
