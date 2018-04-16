@@ -1,0 +1,6 @@
+var getHTML = require('./step5');
+
+var requestOptions = {
+  host: 'sytantris.github.io',
+  path: '/http-examples/step5.html'
+};
